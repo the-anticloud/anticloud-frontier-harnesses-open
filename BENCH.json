@@ -1,0 +1,323 @@
+{
+ "schema": "anticloud.tier-bench/1",
+ "project": "OPEN",
+ "source": {
+  "repo_path": "E:\\fenta\\Downloads\\The Anticloud\\ANTICLOUD_REPOS\\FRONTIER_HARNESSES\\OPEN\\UPSTREAM_CLONE",
+  "git": {
+   "head": "null",
+   "url": "https://github.com/the-anticloud/OPENMRS_CORE.git",
+   "branch": "master",
+   "committed_at": "2026-09-29T11:06:59+04:00"
+  }
+ },
+ "metrics": {
+  "files_total": 13,
+  "source_files_scanned": 5,
+  "lines_of_code": 856,
+  "languages": {
+   "(none)": 6,
+   ".js": 3,
+   ".ts": 2,
+   ".json": 1,
+   ".md": 1
+  }
+ },
+ "licence": {
+  "spdx": "MIT",
+  "class": "A",
+  "source_file": "LICENSE",
+  "redistribution_allowed": true
+ },
+ "dependencies": {
+  "count": 10,
+  "unique": 10,
+  "by_ecosystem": {
+   "npm": 10
+  },
+  "list": [
+   {
+    "ecosystem": "npm",
+    "name": "default-browser",
+    "version": "^5.5.1",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "define-lazy-prop",
+    "version": "^3.0.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "is-in-ssh",
+    "version": "^1.0.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "is-inside-container",
+    "version": "^1.0.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "powershell-utils",
+    "version": "^0.2.1",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "wsl-utils",
+    "version": "^1.0.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/node",
+    "version": "^24.10.1",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "ava",
+    "version": "^6.4.1",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "tsd",
+    "version": "^0.33.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "xo",
+    "version": "^1.2.3",
+    "source_file": "package.json",
+    "raw": ""
+   }
+  ]
+ },
+ "owasp_top10": {
+  "total_findings": 0,
+  "files_with_findings": 0,
+  "severity": {
+   "high": 0,
+   "medium": 0,
+   "low": 0
+  },
+  "categories": {
+   "A01-BrokenAccessControl": {
+    "count": 0,
+    "findings": []
+   },
+   "A02-CryptographicFailures": {
+    "count": 0,
+    "findings": []
+   },
+   "A03-Injection": {
+    "count": 0,
+    "findings": []
+   },
+   "A04-InsecureDesign": {
+    "count": 0,
+    "findings": []
+   },
+   "A05-SecurityMisconfiguration": {
+    "count": 0,
+    "findings": []
+   },
+   "A06-VulnerableComponents": {
+    "count": 0,
+    "findings": []
+   },
+   "A07-AuthFailures": {
+    "count": 0,
+    "findings": []
+   },
+   "A08-SoftwareDataIntegrity": {
+    "count": 0,
+    "findings": []
+   },
+   "A09-LoggingMonitoringFailures": {
+    "count": 0,
+    "findings": []
+   },
+   "A10-SSRF": {
+    "count": 0,
+    "findings": []
+   }
+  }
+ },
+ "owasp_llm_top10": {
+  "total_findings": 0,
+  "files_with_findings": 0,
+  "severity": {
+   "high": 0,
+   "medium": 0,
+   "low": 0
+  },
+  "categories": {
+   "LLM01-PromptInjection": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM02-SensitiveInfoDisclosure": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM03-SupplyChain": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM04-DataPoisoning": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM05-ImproperOutputHandling": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM06-ExcessiveAgency": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM07-SystemPromptLeak": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM08-VectorEmbeddingWeaknesses": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM09-Misinformation": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM10-UnboundedConsumption": {
+    "count": 0,
+    "findings": []
+   }
+  }
+ },
+ "sbom": {
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:2572b8d6-b080-5bee-9b43-525cb9a9fc46",
+  "version": 1,
+  "metadata": {
+   "timestamp": "2026-10-06T16:51:24Z",
+   "component": {
+    "type": "application",
+    "name": "OPEN",
+    "version": "83b357604d34",
+    "bom-ref": "pkg:generic/anticloud/OPEN@83b357604d34",
+    "purl": "pkg:generic/anticloud/OPEN@83b357604d34",
+    "licenses": [
+     {
+      "license": {
+       "id": "MIT"
+      }
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "anticloud:source-commit",
+     "value": "null"
+    },
+    {
+     "name": "anticloud:source-url",
+     "value": "https://github.com/the-anticloud/OPENMRS_CORE.git"
+    },
+    {
+     "name": "anticloud:tier",
+     "value": "tier-agent"
+    }
+   ]
+  },
+  "components": [
+   {
+    "type": "library",
+    "name": "default-browser",
+    "version": "^5.5.1",
+    "purl": "pkg:npm/default-browser@^5.5.1",
+    "bom-ref": "npm/default-browser@^5.5.1"
+   },
+   {
+    "type": "library",
+    "name": "define-lazy-prop",
+    "version": "^3.0.0",
+    "purl": "pkg:npm/define-lazy-prop@^3.0.0",
+    "bom-ref": "npm/define-lazy-prop@^3.0.0"
+   },
+   {
+    "type": "library",
+    "name": "is-in-ssh",
+    "version": "^1.0.0",
+    "purl": "pkg:npm/is-in-ssh@^1.0.0",
+    "bom-ref": "npm/is-in-ssh@^1.0.0"
+   },
+   {
+    "type": "library",
+    "name": "is-inside-container",
+    "version": "^1.0.0",
+    "purl": "pkg:npm/is-inside-container@^1.0.0",
+    "bom-ref": "npm/is-inside-container@^1.0.0"
+   },
+   {
+    "type": "library",
+    "name": "powershell-utils",
+    "version": "^0.2.1",
+    "purl": "pkg:npm/powershell-utils@^0.2.1",
+    "bom-ref": "npm/powershell-utils@^0.2.1"
+   },
+   {
+    "type": "library",
+    "name": "wsl-utils",
+    "version": "^1.0.0",
+    "purl": "pkg:npm/wsl-utils@^1.0.0",
+    "bom-ref": "npm/wsl-utils@^1.0.0"
+   },
+   {
+    "type": "library",
+    "name": "@types/node",
+    "version": "^24.10.1",
+    "purl": "pkg:npm/@types/node@^24.10.1",
+    "bom-ref": "npm/@types/node@^24.10.1"
+   },
+   {
+    "type": "library",
+    "name": "ava",
+    "version": "^6.4.1",
+    "purl": "pkg:npm/ava@^6.4.1",
+    "bom-ref": "npm/ava@^6.4.1"
+   },
+   {
+    "type": "library",
+    "name": "tsd",
+    "version": "^0.33.0",
+    "purl": "pkg:npm/tsd@^0.33.0",
+    "bom-ref": "npm/tsd@^0.33.0"
+   },
+   {
+    "type": "library",
+    "name": "xo",
+    "version": "^1.2.3",
+    "purl": "pkg:npm/xo@^1.2.3",
+    "bom-ref": "npm/xo@^1.2.3"
+   }
+  ]
+ },
+ "elapsed_seconds": 0.48,
+ "sha_unverified": true
+}

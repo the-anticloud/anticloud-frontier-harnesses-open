@@ -1,0 +1,110 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "serialNumber": "urn:uuid:2572b8d6-b080-5bee-9b43-525cb9a9fc46",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-06T16:51:24Z",
+  "component": {
+   "type": "application",
+   "name": "OPEN",
+   "version": "83b357604d34",
+   "bom-ref": "pkg:generic/anticloud/OPEN@83b357604d34",
+   "purl": "pkg:generic/anticloud/OPEN@83b357604d34",
+   "licenses": [
+    {
+     "license": {
+      "id": "MIT"
+     }
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "anticloud:source-commit",
+    "value": "null"
+   },
+   {
+    "name": "anticloud:source-url",
+    "value": "https://github.com/the-anticloud/OPENMRS_CORE.git"
+   },
+   {
+    "name": "anticloud:tier",
+    "value": "tier-agent"
+   }
+  ]
+ },
+ "components": [
+  {
+   "type": "library",
+   "name": "default-browser",
+   "version": "^5.5.1",
+   "purl": "pkg:npm/default-browser@^5.5.1",
+   "bom-ref": "npm/default-browser@^5.5.1"
+  },
+  {
+   "type": "library",
+   "name": "define-lazy-prop",
+   "version": "^3.0.0",
+   "purl": "pkg:npm/define-lazy-prop@^3.0.0",
+   "bom-ref": "npm/define-lazy-prop@^3.0.0"
+  },
+  {
+   "type": "library",
+   "name": "is-in-ssh",
+   "version": "^1.0.0",
+   "purl": "pkg:npm/is-in-ssh@^1.0.0",
+   "bom-ref": "npm/is-in-ssh@^1.0.0"
+  },
+  {
+   "type": "library",
+   "name": "is-inside-container",
+   "version": "^1.0.0",
+   "purl": "pkg:npm/is-inside-container@^1.0.0",
+   "bom-ref": "npm/is-inside-container@^1.0.0"
+  },
+  {
+   "type": "library",
+   "name": "powershell-utils",
+   "version": "^0.2.1",
+   "purl": "pkg:npm/powershell-utils@^0.2.1",
+   "bom-ref": "npm/powershell-utils@^0.2.1"
+  },
+  {
+   "type": "library",
+   "name": "wsl-utils",
+   "version": "^1.0.0",
+   "purl": "pkg:npm/wsl-utils@^1.0.0",
+   "bom-ref": "npm/wsl-utils@^1.0.0"
+  },
+  {
+   "type": "library",
+   "name": "@types/node",
+   "version": "^24.10.1",
+   "purl": "pkg:npm/@types/node@^24.10.1",
+   "bom-ref": "npm/@types/node@^24.10.1"
+  },
+  {
+   "type": "library",
+   "name": "ava",
+   "version": "^6.4.1",
+   "purl": "pkg:npm/ava@^6.4.1",
+   "bom-ref": "npm/ava@^6.4.1"
+  },
+  {
+   "type": "library",
+   "name": "tsd",
+   "version": "^0.33.0",
+   "purl": "pkg:npm/tsd@^0.33.0",
+   "bom-ref": "npm/tsd@^0.33.0"
+  },
+  {
+   "type": "library",
+   "name": "xo",
+   "version": "^1.2.3",
+   "purl": "pkg:npm/xo@^1.2.3",
+   "bom-ref": "npm/xo@^1.2.3"
+  }
+ ],
+ "sha_unverified": true
+}
