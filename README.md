@@ -296,7 +296,6 @@ issued by an independent assessor.
 |---|---|---|
 | Harvard Dataverse | DOI 10.7910/DVN/YMJKOG | 145 citable datasets |
 | AIOSS verification kit | DOI 10.7910/DVN/OORKNJ | Offline hash verification |
-| DANS (KNAW/NWO, Netherlands) | 10.17026/PT | EU-recognised archive |
 | Zenodo (CERN) | — | 146 records, DOI-registered |
 | OSF | — | 144 preregistered records |
 | Figshare | author 20849885 | Research data and figures |
@@ -309,9 +308,9 @@ issued by an independent assessor.
 ## Press and Independent Publication
 
 The PAX benchmark release was distributed by Newsfile wire to 336 outlets
-(312 Web, 23 Terminal, 1 Application), including Yahoo Finance, The Globe
-and Mail, Business Insider, National Post, Financial Post, StreetInsider,
-Digital Journal, Barchart, International Business Times, and Fox News.
+(312 Web, 23 Terminal, 1 Application), including Yahoo Finance, The Globe and Mail, Business Insider, National Post, Financial Post, StreetInsider, Digital Journal, Barchart, International Business Times, and fox47 · National Law Review.
 Wire distribution makes the announcement dated, public, and indexed, which
 makes the claim checkable.
 
+
+> Note: a same-named project in another category is the canonical published copy; this directory is retained as a local reference and is not published separately.
